@@ -7,7 +7,7 @@ message: db 'Hello ', 10, 'World!'
 ; Ao invés de letras, são armazenados os códigos ASCII de cada caractere de "Hello World!"
 ; O byte 10 refere-se a um caractere especial para iniciar uma nova linha (veja na tabela ASCII)
 
-; A diretiva db é usada para criar bytes de dados. Outras opções:
+; A diretiva db é usada para criar bytes de dados.
 ; db: 1 byte (8 bits)
 ; dw: word de 2 bytes (16 bits)
 ; dd: word de 4 bytes (32 bits)
